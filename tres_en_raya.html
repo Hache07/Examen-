@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Juego | Tres en Raya</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="stylesheet" href="css/fontawesome-all.css">
+  <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet"> 
+  <link href="https://fonts.googleapis.com/css?family=Acme|Anton|Bree+Serif|Josefin+Sans|Merriweather+Sans" rel="stylesheet">
+
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/style.css">
+
+  <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+<body>
+
+    <div class="barra">
+      <nav class="item">
+   
+        <a href="index.html" class="">Home</a>
+        <a href="tres_en_raya.html">Tres en raya</a>
+        <a href="sudoku.html">Sudoku</a>
+      
+      </nav>
+    </div>
+
+  <section class="section">
+    <center>
+      <h1>JUEGO 3 EN RAYA</h1>
+
+      <table class="tabla">
+        <tr>
+          <td><img src="img/fondo1.jpg" class="campo" id="c0" onclick="box(0)" /></td>  
+          <td><img src="img/fondo1.jpg" class="campo" id="c1" onclick="box(1)" /></td>  
+          <td><img src="img/fondo1.jpg" class="campo" id="c2" onclick="box(2)" /></td>  
+        </tr>
+        <tr>
+          <td><img src="img/fondo1.jpg" class="campo" id="c3" onclick="box(3)" /></td>  
+          <td><img src="img/fondo1.jpg" class="campo" id="c4" onclick="box(4)" /></td>  
+          <td><img src="img/fondo1.jpg" class="campo" id="c5" onclick="box(5)" /></td>  
+        </tr>
+        <tr>
+          <td><img src="img/fondo1.jpg" class="campo" id="c6" onclick="box(6)" /></td>  
+          <td><img src="img/fondo1.jpg" class="campo" id="c7" onclick="box(7)" /></td>  
+          <td><img src="img/fondo1.jpg" class="campo" id="c8" onclick="box(8)" /></td>  
+        </tr>
+        <tr>
+          <th>Jugador 1</th>  
+          <td></td>  
+          <th>Jugador 2</th>  
+        </tr>
+        <tr>
+          <td><img src="img/1.jpg" width="50" Height="60"/></td>  
+          <td><input class="button" type="button" value="Reiniciar" id="reset" onclick="reiniciar()" onmouseout="suelta()"></td>
+          <td><img src="img/2o.png" width="50" Height="60"/></td>  
+        </tr>
+      </table>
+    </center>
+  </section>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
+
